@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "buildCommand": "curl -L https://github.com/gohugoio/hugo/releases/download/v0.140.2/hugo_extended_0.140.2_linux-amd64.tar.gz | tar -xz && ./hugo --gc --minify",
+  "outputDirectory": "public",
+  "env": {
+    "HUGO_VERSION": "0.140.2"
+  }
+}

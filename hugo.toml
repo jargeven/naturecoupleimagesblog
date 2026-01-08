@@ -1,0 +1,30 @@
+baseURL = 'https://naturecoupleimagesblog.vercel.app/'
+languageCode = 'en-us'
+title = 'Wiki'
+theme = 'hugo-theme-stack'
+
+[params]
+    favicon = '/favicon.png'
+    mainSections = ['post']
+    featuredImageField = 'image'
+    description = 'Best Collection For Influencer'
+
+    [params.sidebar]
+        name = 'Wiki'
+        subtitle = 'Best Collection For Influencer'
+        avatar = { enabled = false }
+
+[[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+    params = { icon = 'home' }
+
+[[menu.main]]
+    name = 'Archives'
+    url = '/archives/'
+    weight = 2
+    params = { icon = 'archives' }
+
+[markup.goldmark.renderer]
+    unsafe = true

@@ -1,0 +1,46 @@
+User-agent: *
+Allow: /
+
+# AI & LLM Bots
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+
+# Search Engines
+User-agent: Googlebot
+Allow: /
+User-agent: Googlebot-Image
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: Baiduspider
+Allow: /
+User-agent: Baiduspider-image
+Allow: /
+User-agent: Yandex
+Allow: /
+User-agent: YandexBot
+Allow: /
+User-agent: Yeti
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: CocCocBot
+Allow: /
+
+# Social Media
+User-agent: facebookexternalhit
+Allow: /
+User-agent: Twitterbot
+Allow: /
+User-agent: Pinterestbot
+Allow: /
+User-agent: Discordbot
+Allow: /
+
+Sitemap: https://naturecoupleimagesblog.vercel.app/sitemap.xml
